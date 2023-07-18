@@ -90,6 +90,7 @@ body {
 .banner-text {
     width: 50%;
 
+
 }
 
 .banner-image {
@@ -103,14 +104,16 @@ body {
 
 .goat-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size:3rem;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
+    margin-bottom: -60px;
 }
 
 .goat-head {
-    font-size: 95px;
+    margin-bottom:-20px ;
+    font-size:5.938rem;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
@@ -122,7 +125,7 @@ body {
 
 .goat-text {
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -153,4 +156,15 @@ body {
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .nav-container, .nav-item-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
 }
