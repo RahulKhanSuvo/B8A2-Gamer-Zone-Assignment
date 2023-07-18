@@ -70,6 +70,7 @@ body {
 .fa-tiktok {
     color: black;
 }
+
 /* goat section start here */
 .banner-container {
     max-width: 1400px;
@@ -78,7 +79,8 @@ body {
     align-items: center;
 
 }
-.goat{
+
+.goat {
     background-image: url(images/Group14.png);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -99,7 +101,56 @@ body {
     height: 100%;
 }
 
-.goat-title{
-
+.goat-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
 }
-/* goat section end here */
+
+.goat-head {
+    font-size: 95px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.goat-text {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fa-circle-play,
+.fa-download {
+    color: red;
+}
+
+.sin-btn {
+    background-color: #F948B2;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.go-btn {
+    padding: 20px 40px;
+    background-color: rgba(78, 197, 247, 1);
+    border: 0;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
