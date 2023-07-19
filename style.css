@@ -220,6 +220,55 @@ body {
 }
 
 /* gamer section end here */
+.online-game-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.online-game-text {
+    text-align: center;
+}
+
+.games-photo {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.game-heading {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.heading-para {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.game-dis {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
 /* play game design start here */
 .play-game-container {
     max-width: 1400px;
@@ -361,9 +410,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
     align-items: center;
     gap: 27px;
+
 }
 
 .category-content {
@@ -392,11 +441,12 @@ body {
 /* footer section design start here*/
 footer {
     background: #0B0223;
-    height: 600px;
+    height:
 }
+
 .footer-container {
-padding-top: 120px;
-   
+    padding-top: 120px;
+
 }
 
 .footer-logo {
@@ -424,36 +474,46 @@ padding-top: 120px;
 .t-white {
     color: #FFF;
 }
-.footer-category{
+
+.footer-category {
     color: aliceblue;
     display: flex;
     justify-content: center;
     gap: 60px;
 }
-.foot-social-icon{
-    margin:66px 66px;
+
+.foot-social-icon {
+    margin: 66px 66px;
 
     display: flex;
     justify-content: center;
     font-size: 30px;
     gap: 40px;
 }
-.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-apple{
+
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram,
+.fa-apple {
     color: white;
 }
-.fa-facebook{
+
+.fa-facebook {
     color: rgb(50, 159, 213);
 }
-.footer-terms{
+
+.footer-terms {
     color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: center;
     gap: 60px;
 }
-.last-text{
+
+.last-text {
     color: rgba(255, 255, 255, 1);
     text-align: center;
 }
+
 /* footer section design end here*/
 
 /* responsive for mobile device */
@@ -488,7 +548,7 @@ padding-top: 120px;
         background-image: url("images/Group14.png");
         background-repeat: no-repeat;
         background-position: left bottom;
-        background-size: 450px 400px;
+        background-size: ;
 
     }
 
@@ -594,4 +654,42 @@ padding-top: 120px;
         background-size: 380px 400px;
         width: 80%;
     }
+
+    .category-buttons {
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+    .category-section {
+        width: 100%;
+    }
+
+    .footer-category {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .foot-social-icon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        margin: 30px 30px;
+    }
+
+    .footer-terms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .games-photo {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        justify-content: center;
+        padding-left: 15px;
+    }
+
 }
