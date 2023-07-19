@@ -354,6 +354,7 @@ body {
 /* category section design start here */
 .category-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin: auto;
 }
 
 .category-buttons {
@@ -362,9 +363,7 @@ body {
     justify-content: center;
     gap: 50px;
     align-items: center;
-    height: 300px;
     gap: 27px;
-    margin: 0 250px;
 }
 
 .category-content {
