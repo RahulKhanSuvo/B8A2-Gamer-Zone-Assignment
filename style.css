@@ -390,6 +390,73 @@ body {
 
 /* category section design end here */
 
+/* footer section design start here*/
+footer {
+    background: #0B0223;
+    height: 600px;
+}
+.footer-container {
+padding-top: 120px;
+   
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.footer-logo img {
+    width: 85px;
+    height: 40px;
+}
+
+.footer-logo h2 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.t-white {
+    color: #FFF;
+}
+.footer-category{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.foot-social-icon{
+    margin:66px 66px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 40px;
+}
+.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-apple{
+    color: white;
+}
+.fa-facebook{
+    color: rgb(50, 159, 213);
+}
+.footer-terms{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.last-text{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+/* footer section design end here*/
+
 /* responsive for mobile device */
 
 @media screen and (max-width:576px) {
@@ -519,5 +586,13 @@ body {
         font-size: .6rem;
     }
 
+    .goat-head {
+        font-size: 5rem;
 
+    }
+
+    .banner-text {
+        background-size: 380px 400px;
+        width: 80%;
+    }
 }
