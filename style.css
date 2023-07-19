@@ -147,6 +147,8 @@ body {
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
 .go-btn {
@@ -159,7 +161,9 @@ body {
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
 }
+
 
 /* gamer section start here */
 .gamer-section {
@@ -218,6 +222,12 @@ body {
     font-size: 1.125rem;
     font-weight: 400;
 }
+
+.hover-one {
+    cursor: pointer;
+}
+
+
 
 /* gamer section end here */
 .online-game-container {
@@ -392,6 +402,7 @@ body {
     line-height: normal;
     text-transform: uppercase;
     color: #F948B2;
+    cursor: pointer;
 }
 
 .careers-img {
@@ -404,6 +415,7 @@ body {
 .category-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin: auto;
+    height: 100%;
 }
 
 .category-buttons {
@@ -411,7 +423,9 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 27px;
+    gap: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
 }
 
@@ -480,6 +494,13 @@ footer {
     display: flex;
     justify-content: center;
     gap: 60px;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+
+    font-weight: 600;
+
 }
 
 .foot-social-icon {
@@ -489,6 +510,7 @@ footer {
     justify-content: center;
     font-size: 30px;
     gap: 40px;
+    cursor: pointer;
 }
 
 .fa-twitter,
@@ -507,11 +529,22 @@ footer {
     display: flex;
     justify-content: center;
     gap: 60px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .last-text {
     color: rgba(255, 255, 255, 1);
     text-align: center;
+    padding: 10px;
+    padding-bottom: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+
 }
 
 /* footer section design end here*/
@@ -539,6 +572,15 @@ footer {
         width: 100%;
     }
 
+    .nav-develop {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .follow-icon {
+        margin-bottom: 40px;
+    }
+
     .logo-container {
         width: 75%;
     }
@@ -548,8 +590,11 @@ footer {
         background-image: url("images/Group14.png");
         background-repeat: no-repeat;
         background-position: left bottom;
-        background-size: ;
+        background-size: 360px 410px;
+    }
 
+    .goat-text {
+        font-size: 22px;
     }
 
     .banner-image {
@@ -650,10 +695,7 @@ footer {
 
     }
 
-    .banner-text {
-        background-size: 380px 400px;
-        width: 80%;
-    }
+
 
     .category-buttons {
         display: grid;
@@ -689,7 +731,7 @@ footer {
         grid-template-columns: auto;
         gap: 20px;
         justify-content: center;
-        padding-left: 15px;
+        padding-left: 28px;
     }
 
 }
