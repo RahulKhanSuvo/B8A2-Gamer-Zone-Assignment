@@ -9,6 +9,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* nav start here */
 .nav-container {
     display: flex;
     align-items: center;
@@ -30,7 +31,7 @@ body {
 }
 
 .logo-container h2 {
-    font-size: 45px;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
     color: #0B0223;
@@ -51,7 +52,7 @@ body {
 .nav-item-container a {
     text-decoration: none;
     color: #3C354F;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 
@@ -72,6 +73,7 @@ body {
     color: black;
 }
 
+/* nav end here */
 /* goat section start here */
 .banner-container {
     max-width: 1400px;
@@ -141,7 +143,7 @@ body {
     border: 0;
     border-radius: 48px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
@@ -153,7 +155,7 @@ body {
     border: 0;
     border-radius: 48px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
@@ -187,7 +189,7 @@ body {
 
 .our-p-para {
     color: #534C64;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 45px;
@@ -196,14 +198,14 @@ body {
 .our-p {
     color: #534C64;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     line-height: 45px;
 }
 
 .gamer-heading {
     text-align: right;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -213,7 +215,7 @@ body {
 
 .gamer-description {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
@@ -239,7 +241,7 @@ body {
 
 .play-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -253,13 +255,14 @@ body {
 .play-game-para {
     color: #534C64;
     font-family: Work Sans;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 30px;
 }
 
 .play-game-img {
     width: 50%;
+    margin-right: 90px;
 }
 
 .play-img {
@@ -275,6 +278,78 @@ body {
 }
 
 /* play game design end here */
+
+/* careers section design start here */
+.careers-section {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+}
+
+.careers-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.careers-title {
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.careers-para {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.careers-text {
+    width: 50%;
+    color: #FFF;
+}
+
+.careers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.careers-list-left {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.careers-list-right {
+    text-align: right;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.careers-btn {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 48px;
+    background: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #F948B2;
+}
+
+.careers-img {
+    width: 50%;
+}
+
+/* careers section design end here */
 
 /* responsive for mobile device */
 
@@ -344,18 +419,61 @@ body {
 
     .play-game-img {
         width: 100%;
-        margin-right:70px;
+        margin-right: 70px;
     }
 
     .play-img {
-        width:80%;
+        width: 80%;
     }
 
     .tom-img {
-    
-        width:35%;
+
+        width: 35%;
         position: relative;
         bottom: 110px;
-       left:50px;
+        left: 50px;
     }
+
+    .careers-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .careers-img {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .careers-text {
+        width: 100%;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .group-img {
+        width: 100%;
+        margin-left: px;
+    }
+
+    .careers-list-left {
+        color: #FFF;
+        font-size: 0.5rem;
+        font-weight: 600
+    }
+    .careers-title{
+        font-size: 100%;
+    }
+    .careers-para{
+        font-size: 80%;
+    }
+    .careers-list-right{
+        font-size: 0.5rem;
+    }
+    .careers-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 48px;
+        font-size:.6rem;}
+    
+
 }
