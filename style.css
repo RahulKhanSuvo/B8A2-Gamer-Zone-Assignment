@@ -272,7 +272,6 @@ body {
 
 .game-dis {
     color: #534C64;
-    font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -455,7 +454,7 @@ body {
 /* footer section design start here*/
 footer {
     background: #0B0223;
-    height:
+    height:auto;
 }
 
 .footer-container {
@@ -559,7 +558,9 @@ footer {
     .play-game-container {
         flex-direction: column;
     }
-
+    .goat{
+    background-size:200px 150px;
+    }
     .banner-container {
         flex-direction: column-reverse;
     }
@@ -586,11 +587,260 @@ footer {
     }
 
     .banner-text {
+        width: 90%;
+       
+    }
+
+    .goat-text {
+        font-size: 22px;
+    }
+    .sin-btn {
+        background-color: #F948B2;
+        padding: 15px 35px;
+        border: 0;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    
+    .go-btn {
+        padding: 15px 35px;
+        background-color: rgba(78, 197, 247, 1);
+        border: 0;
+        border-radius: 48px;
+        color: #FFF;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .banner-image {
         width: 100%;
-        background-image: url("images/Group14.png");
+    }
+
+    .gamer-text {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .gamer-img {
+        width: 100%;
+    }
+
+    .gamer-heading {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .play-game-text {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .play-title {
+        font-size: 40px;
+    }
+
+    .play-game-img {
+        width: 100%;
+        margin-right: 70px;
+    }
+
+    .play-img {
+        width: 80%;
+    }
+
+    .tom-img {
+
+        width: 35%;
+        position: relative;
+        bottom: 110px;
+        left: 50px;
+    }
+
+    .careers-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .careers-img {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .careers-text {
+        width: 100%;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    .group-img {
+        width: 100%;
+        margin-left: px;
+    }
+
+    .careers-list-left {
+        color: #FFF;
+        font-size: 0.5rem;
+        font-weight: 600
+    }
+
+    .careers-title {
+        font-size: 100%;
+    }
+
+    .careers-para {
+        font-size: 80%;
+    }
+
+    .careers-list-right {
+        font-size: 0.5rem;
+    }
+
+    .careers-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 48px;
+        font-size: .6rem;
+    }
+
+    .goat-head {
+        font-size: 5rem;
+
+    }
+    .goat {
+        background-position: center bottom;
+        background-size: 400px 530px;
+    }
+
+    .category-buttons {
+        gap: 15px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+    }
+    
+    .category-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        background: #FFF;
+        border-radius: 48px;
+        color: #0B0223;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .category-content img {
+        width: 40px;
+        height: 40px;
+    }
+    .category-buttons {
+        display: grid;
+        grid-template-columns: auto auto auto;
+
+    }
+
+    .category-section {
+        width: 100%;
+    }
+
+    .footer-category {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .foot-social-icon {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+        margin: 30px 30px;
+    }
+
+    .footer-terms {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .game-heading, .funny{
+        font-size: 28px;
+        
+    }
+    .heading-para{
+        font-size: 12px;
+    }
+    
+    .games-photo {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        justify-content: center;
+        padding-left:28px;
+        align-items: center;
+    }
+    .game-dis{
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+/* reponsive for tablet */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-item-container,
+    .gamer-container,
+    .nav-container,
+    .play-game-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .logo-container {
+        align-items: center;
+    }
+
+    .nav-item-container {
+        width: 100%;
+    }
+    .goat {
+    background-size: 700px 600px;
+    }
+    .nav-develop {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .follow-icon {
+        margin-bottom: 40px;
+    }
+
+    .logo-container {
+        width: 30%;
+    }
+
+    .banner-text {
+        padding: 100px;
+        width: 100%;
         background-repeat: no-repeat;
-        background-position: left bottom;
-        background-size: 360px 410px;
+        background-position: center bottom;
+        background-size: 60px 60px;
     }
 
     .goat-text {
@@ -699,7 +949,7 @@ footer {
 
     .category-buttons {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
 
     }
 
@@ -728,10 +978,11 @@ footer {
 
     .games-photo {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         gap: 20px;
         justify-content: center;
         padding-left: 28px;
+    
     }
 
 }
